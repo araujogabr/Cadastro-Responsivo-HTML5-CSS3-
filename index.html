@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--[1] - Coloca o idioma "pt-br"-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!--[2] - Altera o nome da página para "Criar Conta"-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main> <!--[3] - Cria a tag <main>-->
+        <h1>Create account</h1>
+        <div class="social-media"> <!--[4] - Escreve "div.social-media" e dá um Enter que ele já vai gerar a div com a classe "social-media"-->
+            <a href=""> <!--[5] - Cria a tag <a> que é um link mas o que vai ser clicado é um icone, então cria a tag <img> dentro da tag <a>-->
+                <img src="img/google.png" alt="Google"> <!--[6] - Cria a pasta img dentro da pasta principal do projeto e escolhe o icone "google.png" -->
+            </a>
+
+            <a href=""> <!--[7] - Copia de cima as tags <a> e <img> e faz o mesmo processo anterior-->
+                <img src="img/facebook.png" alt="Facebook"> <!--[8] - Escolhe o icone "facebook.png" -->
+            </a>
+
+            <a href=""> <!--[9] - Copia de cima as tags <a> e <img> e faz o mesmo processo anterior-->
+                <img src="img/linkedin.png" alt="Linkedin"> <!--[10] - Escolhe o icone "linkedin.png" -->
+            </a>
+        </div> 
+
+        <div class="alternative"><!--[11] - Escreve "div.alternative" e dá um Enter que ele já vai gerar a div com a classe "alternative"-->
+            <span>OR</span> <!--[12] - Cria a tag <span> e coloca "OR" para separar os icones do formulário. A tag <span> serve para você colocar um conteúdo que na página não serve para nada além de estilizar ou ajudar a agrupar alguma informação ou conteúdo realmente útil-->
+        </div> 
+
+        <form action=""> <!--[13] - Cria um formulário-->
+            <label for="name"> <!--[14] - Cria a tag <label> para fazer o input dentro dele / Colocar no for="" mesmo nome do input, neste caso, "name"-->
+                <span>Name</span> <!--[15] - Cria outra tag <span> que somente servirá para estilizarmos depois-->
+                <input type="text" id="name" name="name"> <!--[16] - Cria a caixa de input com a tag "input"-->
+            </label>
+
+            <label for="email"> <!--[16] - Cria a tag <label> para fazer o input dentro dele / Colocar no for="" mesmo nome do input, neste caso, "email"-->
+                <span>Email</span> <!--[17] - Cria outra tag <span> que somente servirá para estilizarmos depois-->
+                <input type="email" id="email" name="email"> <!--[18] - Cria a caixa de input com a tag "input"-->
+            </label>
+
+            <label for="password"> <!--[17] - Cria a tag <label> para fazer o input dentro dele / Colocar no for="" mesmo nome do input, neste caso, "password"-->
+                <span>Password</span> <!--[18] - Cria outra tag <span> que somente servirá para estilizarmos depois-->
+                <input type="password" id="password" name="password"> <!--[19] - Cria a caixa de input com a tag "input"-->
+            </label>
+
+            <input type="submit" value="Create an account"> <!--[20] - Cria a tag de submissão do formulário-->
+        </form>
+    </main>
+
+    <section class="images"> <!--[21] - Cria uma seção com a classe "images". Essa seção será formatada para aparecer somete na Web. Mobile vai sumir-->
+        <img src="img/mobile.svg" alt="Mobile"> <!--[22] - Cria a tag <img> para mostra uma imagem-->
+        <div class="circle"></div> <!--[23] - Cria uma div com classe "circle" onde nós vamos formatar depois aquele círculo por trás do formulário-->
+    </section>
+
+    <!--[24] - CRIE O ARQUIVO "style.css" E PARTIU CSS-->
+    
+</body>
+</html>
